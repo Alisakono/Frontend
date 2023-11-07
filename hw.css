@@ -1,12 +1,26 @@
-.p1{
-    background-color:#34495E;
-    border-radius: 20px;
-    padding:10px 21px;
-    height: 50px;
-
+* {
+    padding: 0;
+    margin: 10px;
 }
-.block{
-    margin: 50px;
-    padding: 10px;
-    background-color: rgb(245, 211, 243);
+table {
+    border: 2px solid black;
+}
+
+th {
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+td {
+    border: 2px solid black;
+}
+
+img {
+    width: 150px;
+    height: 70px;
+    margin: 5px;
+}
+
+li {
+    font-size: 23px;
 }
