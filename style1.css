@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     color: black(0, 0, 0); 
+    text-decoration: none;
+}
+
+body {
+    padding: 20px;
+}
+
+.formbox {
+    border: 1px solid #87CEFA;
+    box-shadow: 0 0 15px 0 #87CEFA;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.header {
+    background-color: #87CEFA;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin-top: 5px;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    width: 40%;
+    text-align: center;
+}
+
+input, select, textarea {
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid blue;
+    resize: none;
+
+}
+
+input[type=radio], input[type=checkbox] {
+    width: auto;
+    display: inline-block;
+}
+
+ input :focus { 
+     border: 3px solid blue; 
+     color: blue; 
+ } 
+
+.button{
+    text-align: center;
+    
+}
+div>button{
+    color: black;
+    font-size: 20px;
+    padding: 8px 8px;
+    border: 1px solid blue;
+    border-radius: 5px;
+     background-color: rgb(51, 102, 232); 
+    box-shadow: 0px 0px 15px 0px rgba(50, 99, 205, 1);
+    color:  99, 205, 1;
+}

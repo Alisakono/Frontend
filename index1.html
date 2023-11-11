@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style1.css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8"
+        href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.qhDXWpKopYk.L.W.O/am=CAM/d=0/rs=AN8SPfqeKn8wA30q4viup18yaci8udUjKQ/m=el_main_css">
+</head>
+<body>
+    <div class="formbox">
+        <div class="header">
+            <h1>Tour booking form</h1>
+        </div>
+        <form action="">
+            <div class="item">
+                <p>Name</p>
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Фамилия">
+            </div>
+            <div class="item">
+                <p>email</p>
+                <input type="email" placeholder="имя@mail.ru">
+            </div>
+            <div class="item">
+                <p>Phone</p>
+                <input type="tel" placeholder="### ### ####">
+            </div>
+            <div class="item">
+                <p>когда вы планируете посетить?</p>
+                <input type="date">
+            </div>
+            <div class="item">
+                <p>Сколько человек в вашей группе?</p>
+                <input type="number">
+            </div>
+            <div class="item">
+                <p>Какой тур вас больше всего интересует?</p>
+                <select name="" id=""></option>
+                    <option value="usa">США</option>
+                    <option value="uae">ОАЭ</option>
+                    <option value="eu">Европа</option>
+                    <option value="maldives">Мальдивы</option>
+                </select>
+            </div>
+            <div class="item">
+                <p>Как мне лучше всего связаться с Вами?</p>
+                <div class="checkbox">
+                    <input type="checkbox" id="phone">
+                    <label for="phone">Телефон</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="email">
+                    <label for="email">Электронная почта</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="either">
+                    <label for="either">или</label>
+                </div>
+            </div>
+            <div class="item">
+                <p>Если по телефону, в какое время суток лучше всего перезвонить?</p>
+
+                <div class="radio" >
+                    <input type="radio" name="radio_group" id="radio_1" value="Radio 1">
+                    <label for="radio_1">8.00 – 11.00</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="radio_group" id="radio_2" value="Radio 2">
+                    <label for="radio_2">12.00 – 16:00</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="radio_group"  id="radio_3" value="Radio 3">
+                    <label for="radio_3">18:00 – 22:00</label>
+                </div>
+            </div>
+            <div class="item">
+                <p>Что-нибудь еще, что нам следует знать?</p>
+                <textarea></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Отправлять</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
